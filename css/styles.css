@@ -1,0 +1,122 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-shadow: 0 0 7px #13294B;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3, h4{
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.75rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+footer {
+    height: 2vh;
+    background-color: #4B9CD3;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,.6);
+    overflow-x: hidden;
+}
+
+.unc-logo {
+    width: 70%;
+}
+
+.bg-image {
+    background-image: url('../img/homepage.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-image2 {
+    background-image: url('../img/belltower.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-primary {
+    color: white !important;
+}
+
+.bg-blank {
+    height: 60vh;
+}
+
+.bg-blank2 {
+    height: 30vh;
+}
+
+.form-box {
+    height: 80%;
+    width: 80%;
+    background-color: #F7F7F7;
+    box-shadow: inset 0 0 10px #b4b4b4;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.btn {
+    width: 20em;
+    border-radius: 2px;
+}
+
+.btn-primary {
+    background-color: #13294B;
+    border-color: #13294B;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4B9CD3;
+    border-color: #4B9CD3; /*set the color you want here*/
+}
+
+.bg-primary {
+    background-color: #4B9CD3 !important; 
+    font-family: 'News Cycle', sans-serif;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.card-header {
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #13294B;
+    color: white
+}
+
+.card-body {
+    background-color: #F7F7F7;
+}
