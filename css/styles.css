@@ -63,9 +63,14 @@ footer {
     height: 60vh;
 }
 
+form {
+    height: fit-content;
+}
+
 .form-box {
-    height: 80%;
+    height: fit-content;
     width: 80%;
+    padding-bottom: 10px;
     background-color: #F7F7F7;
     box-shadow: inset 0 0 10px #b4b4b4;
     font-family: 'News Cycle', sans-serif;
