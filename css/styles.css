@@ -28,6 +28,31 @@ footer {
     background-color: #4B9CD3;
 }
 
+
+.larger {
+    font-size: 32px;
+}
+
+.larger2{
+    font-size: 20px;
+}
+
+.bottompadding{
+    padding-bottom: 1em;
+}
+
+.extrapadding {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.extrapadding2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
 .overlay {
     background-color: rgba(0,0,0,.6);
     overflow-x: hidden;
@@ -35,6 +60,11 @@ footer {
 
 .unc-logo {
     width: 70%;
+}
+
+.logos {
+    width: 70%;
+
 }
 
 .bg-image {
@@ -55,6 +85,24 @@ footer {
     background-position: center;
 }
 
+.bg-image3 {
+    background-image: url('../img/typing.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-image4 {
+    background-image: url('../img/coffee.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .text-primary {
     color: white !important;
 }
@@ -64,9 +112,8 @@ footer {
 }
 
 .form-box {
-    height: fit-content;
+    height: 80%;
     width: 80%;
-    padding-bottom: 20px;
     background-color: #F7F7F7;
     box-shadow: inset 0 0 10px #b4b4b4;
     font-family: 'News Cycle', sans-serif;
